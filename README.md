@@ -1,85 +1,188 @@
-
 # GRC Command Centre
 
-**A Cybersecurity Governance, Risk and Compliance Management Platform**
+A practical Governance, Risk and Compliance (GRC) portfolio repository
+demonstrating how core GRC and information security activities can be
+organised, documented, monitored and improved.
 
-A centralised platform designed to help organisations manage cybersecurity governance, risk assessments, regulatory compliance, policies, audit activities and remediation processes.
+This is a learning and portfolio initiative. The templates and examples
+demonstrate practical understanding of governance, risk management,
+compliance monitoring, audit, incident management, third-party risk and
+an Information Security Management System (ISMS) aligned with ISO/IEC
+27001:2022.
 
-The GRC Command Centre aims to simplify compliance operations by bringing essential GRC activities into one organised environment.
+> **Important:** This repository is not a live organisational ISMS, a
+> certification claim, or proof of compliance. Templates must be
+> tailored, validated, approved and implemented by the relevant
+> organisation before operational use.
 
-## Project Overview
+## Project objectives
 
-The GRC Command Centre is a software engineering project focused on developing a practical Governance, Risk and Compliance management solution.
+-   Build practical GRC documentation and control-management skills.
+-   Demonstrate how risks, obligations, controls, evidence, findings and
+    actions can be tracked.
+-   Support an organised approach to information security governance.
+-   Develop familiarity with ISO/IEC 27001:2022 concepts and supporting
+    ISMS records.
+-   Create a maintainable portfolio that can be extended over time.
 
-The platform is designed around cybersecurity governance principles and the ISO/IEC 27001:2022 Information Security Management System (ISMS) framework.
+## Repository structure
 
-## Key Features
+  -----------------------------------------------------------------------
+  Folder / file                       Purpose
+  ----------------------------------- -----------------------------------
+  `policies/`                         Information security and access
+                                      control policies, plus
+                                      policy-folder guidance.
 
-The following modules are planned:
+  `risk-register/`                    Risk identification, assessment,
+                                      treatment and monitoring.
 
-- **Executive Dashboard:** Overview of organisational compliance and risk posture.
-- **Risk Register:** Identify, assess, monitor and manage organisational risks.
-- **ISO 27001 Controls:** Track information security controls and implementation status.
-- **Policy Management:** Organise and manage information security policies.
-- **Audit Management:** Record audit findings and monitor audit activities.
-- **Remediation Management:** Track corrective actions and outstanding issues.
-- **Reporting:** Generate reports to support governance and management decisions.
+  `compliance/`                       Compliance obligations, assessments
+                                      and monitoring records.
 
-## Technology Stack
+  `audits/`                           Internal audit planning, tracking
+                                      and findings management.
 
-The planned technology stack includes:
+  `incident-management/`              Incident response planning and
+                                      incident recording.
 
-| Technology | Purpose |
-|---|---|
-| Python | Backend development |
-| Flask | Web application framework |
-| HTML5 | Frontend structure |
-| CSS3 | Interface design |
-| JavaScript | Interactive functionality |
-| SQLite | Database management |
-| Git | Version control |
-| GitHub | Source code management |
+  `vendor-risk-management/`           Third-party risk assessment and
+                                      vendor governance.
 
-## Project Objectives
+  `iso-27001/`                        ISMS scope, context, objectives,
+                                      document control, access reviews,
+                                      change management and related ISO
+                                      27001 support tools.
 
-1. Develop a centralised GRC management platform.
-2. Demonstrate practical implementation of cybersecurity governance concepts.
-3. Apply ISO 27001:2022 principles to information security management.
-4. Improve visibility of organisational risks and compliance activities.
-5. Develop practical software engineering and systems analysis skills.
+  `reports/`                          GRC and ISMS reporting outputs.
 
-## Development Roadmap
+  `documentation/`                    Supporting project notes, guidance
+                                      and design documentation.
+  -----------------------------------------------------------------------
 
-- [ ] Repository setup and documentation
-- [ ] Dashboard interface
-- [ ] Risk register module
-- [ ] ISO 27001 control management
-- [ ] Policy management module
-- [ ] Audit management module
-- [ ] Remediation tracking
-- [ ] Database integration
-- [ ] Reporting functionality
-- [ ] Testing and deployment
+## Key capabilities
 
-## Security and Data Disclaimer
+### Governance and policies
 
-This project is intended for educational and demonstration purposes.
+Policy documents define governance expectations, responsibilities and
+baseline requirements. They should be approved by the appropriate
+authority and communicated to relevant personnel.
 
-Development and testing should use synthetic data. Do not upload confidential organisational information, personal data, credentials or proprietary documents.
+### Risk management
 
-## Project Status
+Risk registers and treatment plans help record risk scenarios, assess
+likelihood and impact, identify controls, assign owners and monitor
+treatment actions.
 
-**Status:** Initial development
+### Compliance management
 
-This project is actively being developed, with features and functionality planned for progressive implementation.
+Obligations registers, assessment templates and monitoring logs connect
+requirements to controls, evidence, findings and remediation.
 
-## Author
+### Audit and assurance
 
-Developed as a practical cybersecurity GRC and enterprise systems engineering project.
+Audit planning and findings trackers support audit scoping, evidence
+collection, findings documentation and corrective-action monitoring.
 
----
+### Incident management
 
-*Building better visibility, accountability and control across cybersecurity governance and risk management.*
+Incident response resources support reporting, assessment, escalation,
+response, recovery and post-incident learning.
 
+### Third-party risk
 
+Vendor risk resources support due diligence, risk tiering, contractual
+security considerations, ongoing monitoring and offboarding.
 
+### ISO/IEC 27001-aligned ISMS support
+
+The `iso-27001/` folder contains practical working documents supporting
+selected ISMS activities, including scope definition, interested-party
+analysis, information security objectives, document control, access
+reviews and change management.
+
+## Suggested workflow
+
+1.  Define the organisation, services, locations, information and
+    technology covered by the GRC or ISMS work.
+2.  Identify relevant internal and external issues, interested parties
+    and applicable requirements.
+3.  Identify information assets and assess information security risks.
+4.  Determine risk treatment actions and select controls based on risk
+    and organisational requirements.
+5.  Document control applicability and justification in the Statement of
+    Applicability.
+6.  Establish policies, procedures, responsibilities and measurable
+    objectives.
+7.  Monitor controls, obligations, suppliers, incidents and corrective
+    actions.
+8.  Conduct internal audits and management reviews.
+9.  Track improvement actions and review the ISMS when material changes
+    occur.
+
+This is a suggested learning sequence, not a substitute for an
+organisation's approved methodology.
+
+## Working with the templates
+
+-   Read each workbook's `Read Me` sheet before entering information.
+-   Replace square-bracket placeholders with verified organisational
+    information.
+-   Treat sample entries and target values as illustrative, not
+    universal requirements.
+-   Assign accountable owners and authorised approvers.
+-   Keep evidence references traceable to records in an approved
+    repository.
+-   Review documents on a risk-based schedule and after significant
+    changes.
+-   Record document versions, approvals, effective dates and review
+    dates.
+-   Protect confidential information and personal data.
+
+## Security and data handling
+
+Do not commit passwords, API keys, access tokens, private keys, personal
+information, customer records, production data, confidential internal
+documents or sensitive system details to a public repository.
+
+Use fictional or sanitised examples in portfolio materials. Apply access
+restrictions and appropriate data-handling rules to real organisational
+records. Review repository visibility and files before publishing
+changes.
+
+## Standards and legal considerations
+
+This project references ISO/IEC 27001:2022 concepts for learning and
+portfolio demonstration. It does not reproduce the standard. Consult the
+official standard and qualified organisational stakeholders when
+determining requirements.
+
+Legal, regulatory and contractual obligations depend on the
+organisation, its activities, jurisdictions and services. Validate
+applicability with appropriate Legal and Compliance personnel; do not
+assume that an example obligation applies to every organisation.
+
+## Project status
+
+This repository is a developing portfolio project. Documents may be
+working drafts and illustrative tools. Their presence in the repository
+does not mean that a control is implemented, operating effectively,
+approved or independently assessed.
+
+## Future enhancements
+
+Potential extensions include business continuity and disaster recovery
+planning, corrective action tracking, management review records,
+internal audit scheduling, control testing, security awareness tracking,
+privacy assessments, GRC reporting and workflow automation.
+
+## Maintainer
+
+**Portfolio owner:** \[Insert your name or professional profile\]
+
+**Repository:** `Ozilha/grc-command-centre`
+
+------------------------------------------------------------------------
+
+*Built as a practical learning project to develop and demonstrate GRC,
+cybersecurity governance and ISMS documentation skills.*
